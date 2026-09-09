@@ -106,7 +106,7 @@ export default function Messages() {
             <>
               <div className="flex-1 space-y-2 overflow-y-auto mb-4">
                 {messages.map((m) => (
-                  <div key={m.id} className={`max-w-xs px-3 py-2 rounded text-sm ${m.fromUser === user.id ? "bg-laterite-500 text-latex-50 ml-auto" : "bg-latex-100"}`}>
+                  <div key={m.id} className={`max-w-xs sm:max-w-sm px-3 py-2 rounded text-sm whitespace-pre-line ${m.fromUser === user.id ? "bg-laterite-500 text-latex-50 ml-auto" : "bg-latex-100"}`}>
                     {m.text}
                   </div>
                 ))}

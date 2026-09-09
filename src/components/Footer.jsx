@@ -65,6 +65,14 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-ebene-700/60">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 text-xs text-latex-100/40 text-center">
+          TerraCI est une plateforme de mise en relation entre particuliers et agences : nous ne sommes pas partie
+          aux transactions et n'intervenons pas dans la vente ou la location des biens publiés. Faites vos
+          vérifications avant tout paiement.
+        </div>
+      </div>
+
+      <div className="border-t border-ebene-700/60">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-latex-100/40">
           <p>© {year} TerraCI. Tous droits réservés.</p>
           <p>Fait avec soin en Côte d'Ivoire 🇨🇮</p>

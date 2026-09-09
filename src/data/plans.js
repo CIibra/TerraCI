@@ -21,8 +21,8 @@
 // Change UNIQUEMENT ces deux lignes le jour où tu veux démarrer/arrêter la
 // promo : aucune autre modification, aucun rebuild à refaire ensuite, ça
 // bascule tout seul à la date indiquée à chaque fois que l'app se recharge.
-const LAUNCH_PROMO_QUOTA = 15; // quota pendant la promo de lancement
-const LAUNCH_PROMO_END = new Date("2026-09-30T00:00:00"); // fin de la promo (1 mois après le lancement, ajuste cette date)
+const LAUNCH_PROMO_QUOTA = 10; // quota pendant la promo de lancement
+const LAUNCH_PROMO_END = new Date("2026-09-30T00:00:00"); // fin de la promo (ajuste cette date)
 const NORMAL_QUOTA = 3; // quota habituel une fois la promo terminée
 
 export const FREE_LISTING_QUOTA = Date.now() < LAUNCH_PROMO_END.getTime() ? LAUNCH_PROMO_QUOTA : NORMAL_QUOTA;

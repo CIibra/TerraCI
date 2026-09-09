@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108">
+  <defs>
+    <linearGradient id="plot" x1="34" y1="30" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D6A94F"/>
+      <stop offset="1" stop-color="#BE5A2E"/>
+    </linearGradient>
+  </defs>
+  <!-- Parcelle bornée : la marque évoque un terrain arpenté (titre foncier),
+       coeur du positionnement TerraCI, plutôt qu'une maison générique. -->
+  <polygon points="34,30 80,38 74,80 28,70" fill="url(#plot)" stroke="#15130F" stroke-width="1.6" stroke-linejoin="round"/>
+  <line x1="34" y1="30" x2="74" y2="80" stroke="#15130F" stroke-opacity="0.22" stroke-width="1.4"/>
+  <g>
+    <circle cx="34" cy="30" r="5" fill="#15130F"/>
+    <circle cx="34" cy="30" r="2.1" fill="#D6A94F"/>
+    <circle cx="80" cy="38" r="5" fill="#15130F"/>
+    <circle cx="80" cy="38" r="2.1" fill="#D6A94F"/>
+    <circle cx="74" cy="80" r="5" fill="#15130F"/>
+    <circle cx="74" cy="80" r="2.1" fill="#D6A94F"/>
+    <circle cx="28" cy="70" r="5" fill="#15130F"/>
+    <circle cx="28" cy="70" r="2.1" fill="#D6A94F"/>
+  </g>
+</svg>
